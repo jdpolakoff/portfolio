@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+
+body {
+  height: 100vh;
+ font-family: 'Inconsolata', monospace;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+
+.about {
+  display: block;
+  background-color: blue;
+  color: white;
+  text-align: right;
+  margin-top: -25px;
+  border-radius: 12px;
+}
+
+img {
+  border-radius: 150px;
+  height: 125px;
+  float: left;
+  margin: 5px;
+}
+
+footer {
+  display: block;
+  /*margin: 0 auto;*/
+  bottom: 0px;
+  height: 20px;
+  background-color: blue;
+  border-radius: 12px;
+  color: white;
+}
+
+main {
+  /*display: flex;*/
+  flex-direction: row;
+  flex-grow: 1;
+}
