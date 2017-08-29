@@ -8,34 +8,75 @@ body {
  justify-content: space-between;
 }
 
+h2 {
+  margin-top: -1%;
+}
+h1, h2 {
+  display: block;
+}
+
+.stuff{
+
+  vertical-align: middle;
+}
+
+/*footer {
+  display: block;
+  /*margin: 0 auto;*/
+  /*bottom: 0px;
+  height: 20px;
+  background-color: blue;
+  border-radius: 12px;
+  color: white;
+  opacity: .5;
+  box-shadow: 5px 5px 5px #D6DBDF;
+}*/
+
+#cursor {
+  margin-bottom: 3%;
+  font-size: 24px;
+}
+
 .about {
   display: block;
   background-color: blue;
   color: white;
   text-align: right;
-  margin-top: -25px;
   border-radius: 12px;
-}
-
-img {
-  border-radius: 150px;
-  height: 125px;
-  float: left;
-  margin: 5px;
-}
-
-footer {
   display: block;
-  /*margin: 0 auto;*/
-  bottom: 0px;
-  height: 20px;
+  height: 10px;
   background-color: blue;
   border-radius: 12px;
   color: white;
+  opacity: .5;
+  box-shadow: 5px 5px 5px #D6DBDF;
+  margin-top: -1%;
+
 }
 
+.title {
+  align-items: center;
+}
+
+img {
+  border-radius: 10px;
+  height: 250px;
+  float: left;
+  margin-right: 5%;
+  box-shadow: 5px 5px 5px #D6DBDF;
+
+}
+
+img:hover {
+  border: 5px dotted green;
+}
+
+
 main {
-  /*display: flex;*/
+  display: flex;
   flex-direction: row;
   flex-grow: 1;
+  margin-top: 10%;
+  margin-left: 6%;
+  flex-wrap: wrap;
 }
