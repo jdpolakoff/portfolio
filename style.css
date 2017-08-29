@@ -60,23 +60,50 @@ h1, h2 {
 
 img {
   border-radius: 10px;
-  height: 250px;
-  float: left;
-  margin-right: 5%;
+  height: 230px;
+  /*float: left;*/
+  margin: 0 auto;
   box-shadow: 5px 5px 5px #D6DBDF;
 
+}
+
+span p {
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 2%;
 }
 
 img:hover {
   border: 5px dotted green;
 }
 
+.container {
+  width: 80%;
+  margin: auto;
+  /*margin-bottom: 50%;
+  margin-left: 5%;*/
+  box-shadow: 5px 5px 5px #D6DBDF;
+  padding: 2%;
+  border-radius: 10px;
+  border: 2px solid #D6DBDF;
+  margin-bottom: 2%;
+  margin-top: 1%;
 
-main {
+}
+
+h3 {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 2%;
+}
+
+.main {
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
-  flex-grow: 1;
-  margin-top: 10%;
-  margin-left: 6%;
+  /*flex-grow: 1;*/
+  /*margin-top: 15%;*/
+  /*margin-left: auto;*/
   flex-wrap: wrap;
 }
