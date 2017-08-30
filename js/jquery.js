@@ -11,7 +11,7 @@
 
 $(document).ready(function() {
     $('.stuff h1').typeIt({
-     strings: ["Jonathan Polakoff", "Web developer, journalist and"],
+     strings: ["Jonathan Polakoff", "Web developer & journalist"],
      speed: 150,
      html: true,
      autoStart: true,
