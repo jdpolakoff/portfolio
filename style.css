@@ -9,15 +9,26 @@ body {
 }
 
 h2 {
-  margin-top: -1%;
+  margin-top: -2%;
+  font-weight: bold;
 }
+
 h1, h2 {
   display: block;
+  top: 0
 }
 
 .stuff{
-
   vertical-align: middle;
+}
+
+.stuff h1 {
+  /*margin-bottom: -1%;*/
+}
+
+.stuff2 {
+  font-size: 24px;
+  display: inline;
 }
 
 /*footer {
@@ -50,12 +61,20 @@ h1, h2 {
   color: white;
   opacity: .5;
   box-shadow: 5px 5px 5px #D6DBDF;
-  margin-top: -1%;
-
+  /*margin-top: 1%;*/
 }
 
 .title {
   align-items: center;
+}
+
+.contain {
+  background-color: #C5FBE8;
+  margin-top: .5%;
+  box-shadow: 5px 5px 5px #D6DBDF;
+  /*padding: 2%;*/
+  border-radius: 10px;
+  border: 2px solid #D6DBDF;
 }
 
 img {
@@ -64,14 +83,21 @@ img {
   /*float: left;*/
   margin: 0 auto;
   box-shadow: 5px 5px 5px #D6DBDF;
-
+  margin-top: 2%;
 }
 
 span p {
   width: 60%;
   text-align: center;
   margin: 0 auto;
-  margin-top: 2%;
+  box-shadow: 5px 5px 5px #D6DBDF;
+  padding: 2%;
+  border-radius: 10px;
+  border: 2px solid #D6DBDF;
+  background-color: white;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  font-size: 20px;
 }
 
 img:hover {
@@ -89,6 +115,7 @@ img:hover {
   border: 2px solid #D6DBDF;
   margin-bottom: 2%;
   margin-top: 1%;
+  background-color: white;
 
 }
 
