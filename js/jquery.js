@@ -18,5 +18,6 @@ $(document).ready(function() {
      breaklines: true,
      cursor: true,
    })
+   $('.logos').delay(7500).fadeIn(1000)
   //  setInterval ('cursorAnimation()', 1000)
 })
