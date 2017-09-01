@@ -81,6 +81,10 @@ h1, h2 {
   border: 2px solid #D6DBDF;
 }
 
+.main img {
+  margin-right: 2%;
+}
+
 img {
   border-radius: 10px;
   height: 230px;
