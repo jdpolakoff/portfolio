@@ -223,8 +223,14 @@ h3 {
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  .logos {
+  .logos, .logos2 {
     float: left;
-    margin-top: 2%; 
+    margin-top: 2%;
+  }
+  .description, .description2 {
+    width: 95%;
+  }
+  .description p, .description2 p {
+    width: 95%;
   }
 }
