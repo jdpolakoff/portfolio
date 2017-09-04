@@ -53,6 +53,7 @@ h1, h2 {
 }
 
 .about {
+  position: relative;
   display: block;
   background-color: blue;
   color: white;
@@ -221,5 +222,9 @@ h3 {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
+  }
+  .logos {
+    float: left;
+    margin-top: 2%; 
   }
 }
