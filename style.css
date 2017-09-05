@@ -233,4 +233,7 @@ h3 {
   .description p, .description2 p {
     width: 95%;
   }
+  .description2 img {
+    width: 90%
+  }
 }
