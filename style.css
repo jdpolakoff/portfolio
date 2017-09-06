@@ -213,7 +213,7 @@ h3 {
   align-self: center;*/
 }
 
-.description p {
+.description p, .description2 p, .description3 p {
   /*margin-left: 25%;*/
   font-size: 20px;
   width: 80%;
