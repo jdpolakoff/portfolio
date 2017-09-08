@@ -22,14 +22,13 @@ $(document).ready(function() {
    $('body').particleground({
      dotColor: '#5d9afc',
      lineColor: '#5d9afc',
-     paralax: false,
-     density: 10000,
+     paralax: true,
+     density: 12000,
      maxSpeedX: .7,
      maxSpeedY: .5,
-     directionX: 'center',
      lineWidth: 1,
-     particleRadius: 9,
-     proximity: 140
+     particleRadius: 12,
+     proximity: 100
 });
   //  setInterval ('cursorAnimation()', 1000)
 })
