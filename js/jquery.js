@@ -10,7 +10,6 @@ $(document).ready(function() {
      cursor: true,
    })
     $('.logos').delay(3500).fadeIn(1000)
-  if($(window).width() > 600) {
     $('body').particleground({
      dotColor: '#5d9afc',
      lineColor: '#5d9afc',
@@ -22,5 +21,4 @@ $(document).ready(function() {
      particleRadius: 5,
      proximity: 100
 })
-}
 })
