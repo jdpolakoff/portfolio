@@ -18,8 +18,8 @@ $(document).ready(function() {
      breaklines: true,
      cursor: true,
    })
-   $('.logos').delay(3500).fadeIn(1000)
-   if($(window).width() > 600) {
+    $('.logos').delay(3500).fadeIn(1000)
+  if($(window).width() > 600) {
     $('body').particleground({
      dotColor: '#5d9afc',
      lineColor: '#5d9afc',
@@ -32,5 +32,4 @@ $(document).ready(function() {
      proximity: 100
 })
 }
-  //  setInterval ('cursorAnimation()', 1000)
 })

@@ -245,14 +245,14 @@ h3 {
   margin: 2% auto;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .main, .main2, .main3 {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 100%;
+    width: 95%;
   }
 
   /*header {
@@ -265,7 +265,7 @@ h3 {
   }
 
   .container {
-    width: 100%
+    width: 95%
   }
 
   span p {
@@ -273,10 +273,10 @@ h3 {
   }
 
   .description, .description2 {
-    width: 100%;
+    width: 95%;
   }
   .description p, .description2 p {
-    width: 100%;
+    width: 95%;
   }
   .description2 img {
     max-width: 90%
