@@ -104,7 +104,7 @@ h1, h2 {
 }
 
 header {
-  background-color: white;
+  background-color: #fcfdff;
   z-index: 1
 }
 
@@ -254,11 +254,16 @@ h3 {
     float: left;
     margin-top: 2%;
   }
+
+  .contain {
+    width: 100%
+  }
+
   .description, .description2 {
-    width: 95%;
+    width: 100%;
   }
   .description p, .description2 p {
-    width: 95%;
+    width: 100%;
   }
   .description2 img {
     width: 90%
