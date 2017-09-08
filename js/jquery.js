@@ -19,7 +19,8 @@ $(document).ready(function() {
      cursor: true,
    })
    $('.logos').delay(3500).fadeIn(1000)
-   $('body').particleground({
+   if($(window).width() > 600) {
+    $('body').particleground({
      dotColor: '#5d9afc',
      lineColor: '#5d9afc',
      paralax: true,
@@ -27,8 +28,9 @@ $(document).ready(function() {
      maxSpeedX: .7,
      maxSpeedY: .5,
      lineWidth: 1,
-     particleRadius: 12,
+     particleRadius: 5,
      proximity: 100
-});
+})
+}
   //  setInterval ('cursorAnimation()', 1000)
 })
