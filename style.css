@@ -81,14 +81,36 @@ h1, h2 {
   align-items: center;
 }
 
-.contain {
-  background-color: #b2ffe1;
+.empty {
+  /*background-color: #b2ffe1;
   margin-top: .5%;
   box-shadow: 5px 5px 5px #D6DBDF;
   /*padding: 2%;*/
-  border-radius: 10px;
-  border: 2px solid #D6DBDF;
+  /*border-radius: 10px;
+  border: 2px solid #D6DBDF;*/
+  /*position: relative;*/
+  position: absolute;
+  /*top: 0;*/
+  width: 100vw;
+  height: 100vh;
+  bottom: 0;
+  /*left: 0;*/
+  z-index:0;
+  overflow-x: scroll;
 }
+
+.contain2, header {
+  position: relative;
+}
+
+header {
+  background-color: white;
+  z-index: 1
+}
+
+/*header {
+  top: 0
+}*/
 
 .main img, .main2 img, .main3 img {
   border-radius: 10px;
