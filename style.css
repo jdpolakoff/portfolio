@@ -255,9 +255,10 @@ h3 {
     width: 95%;
   }
 
-  /*header {
-    margin-top: 5%
-  }*/
+  .logoscontain {
+    height: 100%;
+    width: 100%
+  }
 
   .logos, .logos2 {
     float: left;
