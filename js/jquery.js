@@ -11,14 +11,15 @@ $(document).ready(function() {
    })
     $('.logos').delay(3500).fadeIn(1000)
     $('body').particleground({
-     dotColor: '#5d9afc',
-     lineColor: '#5d9afc',
-     paralax: true,
-     density: 12000,
-     maxSpeedX: .7,
-     maxSpeedY: .5,
-     lineWidth: 1,
-     particleRadius: 5,
-     proximity: 100
+       randomStrokeColor: true,
+       strokeColorMin: 0,
+       strokeColorMax: 15,
+       paralax: true,
+       density: 12000,
+       maxSpeedX: .7,
+       maxSpeedY: .5,
+       lineWidth: 2,
+       particleRadius: 5,
+       proximity: 100
 })
 })
