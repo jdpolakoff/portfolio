@@ -1,5 +1,4 @@
 
-
 $(document).ready(function() {
     $('.stuff h1').typeIt({
      strings: ["Jonathan Polakoff", "Web developer & journalist"],
@@ -22,4 +21,11 @@ $(document).ready(function() {
        particleRadius: 5,
        proximity: 100
 })
+// var $words = {
+//     word: "apply",
+//     definition: "The Write Less, Do More, JavaScript Library."
+//   }
+//  $('span p').definitions( {
+//      term : $words
+//    })
 })
