@@ -313,7 +313,7 @@ container h3{
   .description p, .description2 p {
     width: 95%;
   }
-  .description2 img {
+  .description2 img, .description img {
     max-width: 90%
   }
   .aboutme {
