@@ -101,6 +101,10 @@ h1, h2 {
   overflow-x: scroll;
 }
 
+.empty .brand {
+  margin-top: 150px
+}
+
 .contain2, header {
   position: relative;
 }
@@ -124,7 +128,7 @@ header {
   margin-top: 2%;
 }
 
-span p {
+span p, .brand {
   width: 60%;
   text-align: center;
   margin: 0 auto;
@@ -158,10 +162,14 @@ img:hover {
 
 }
 
-h3 {
+h3, h2 {
   text-align: center;
   margin: 0 auto;
   margin-bottom: 2%;
+}
+
+container h3{
+  margin-bottom: 2%
 }
 
 .main, .main2, .main3 {
@@ -227,7 +235,7 @@ h3 {
 .description2 {
   width: 90%;
   text-align: center;
-  margin: 0 auto;
+  margin: 2% auto;
   display: inline-block;
   box-shadow: 5px 5px 5px #D6DBDF;
   border: 2px solid #D6DBDF;
@@ -282,5 +290,8 @@ h3 {
   }
   .description2 img {
     max-width: 90%
+  }
+  .empty .brand {
+    margin-top: 70px
   }
 }
