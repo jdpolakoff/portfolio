@@ -246,6 +246,10 @@ container h3{
   align-self: center;*/
 }
 
+.description2 img {
+  margin-bottom: 2%
+}
+
 .description p, .description2 p, .description3 p {
   /*margin-left: 25%;*/
   font-size: 20px;
