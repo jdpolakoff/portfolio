@@ -6,7 +6,7 @@ body {
  display: flex;
  flex-direction: column;
  justify-content: space-between;
- background-color: #fcfdff;
+ background-color: #eff2f7;
  /*background-image: url('https://static.pexels.com/photos/5350/wave-ocean.jpg');*/
  background-size: cover
 }
@@ -102,7 +102,17 @@ h1, h2 {
 }
 
 .empty .brand {
-  margin-top: 150px
+  height: 70%;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #fcfdff;
 }
 
 .contain2, header {
@@ -110,7 +120,7 @@ h1, h2 {
 }
 
 header {
-  background-color: #fcfdff;
+  background-color: #eff2f7;
   z-index: 1;
   padding-bottom: .5%;
 }
@@ -144,7 +154,7 @@ span p, .brand {
 }
 
 img:hover {
-  border: 5px dotted green;
+  border: 5px dotted #0f67ff;
 }
 
 .container {
@@ -295,7 +305,7 @@ container h3{
   .description2 img {
     max-width: 90%
   }
-  .empty .brand {
-    margin-top: 70px
+  .brand {
+    width: 80%
   }
 }

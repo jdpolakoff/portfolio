@@ -99,7 +99,7 @@
 		Get a random color from #000 - #FFF (0-15)
 	**/
 	function getRandColor(min,max) {
-		var t = ['#4286f4','#f4df42','#f48f42','#41f27c','#803be2','#e23a5c','#3ecbdd','#dd3e50','#dd403e'];
+		var t = ['#7fadff','#095ae8','#325d72','#addcf4','#48b9f2','#037ebc','#03bcbc','#7be5e5','#bbf1f1'];
 		var c = Math.floor((Math.random() * max) + min);
 		return t[c];
 	}
