@@ -222,11 +222,15 @@ container h3{
 }
 
 
-.logos img, .logos2 img {
+.logos img, .logos2 img, .logos3 img {
   height: 60px;
   border: none;
   box-shadow: 5px 5px 5px #D6DBDF;
   border-radius: 5px;
+}
+
+.logos3 img {
+  margin-top: 1%
 }
 
 /*.logos img:hover {
@@ -276,6 +280,14 @@ container h3{
   font-size: 20px;
   width: 80%;
   margin: 2% auto;
+}
+
+@media only screen and (max-width: 750px) {
+.aboutme {
+  height: 100vh;
+  width: 95vw;
+  margin-top: 15%;
+}
 }
 
 @media only screen and (max-width: 600px) {
