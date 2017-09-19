@@ -2,13 +2,13 @@
 $(document).ready(function() {
     $('.stuff h1').typeIt({
      strings: ["Jonathan Polakoff", "Web developer & journalist"],
-     speed: 50,
+     speed: 20,
      html: true,
      autoStart: true,
      breaklines: true,
      cursor: true,
    })
-    $('.logos').delay(3500).fadeIn(1000)
+    $('.logos').delay(2000).fadeIn(1000)
     $('body').particleground({
        randomStrokeColor: true,
        strokeColorMin: 0,
