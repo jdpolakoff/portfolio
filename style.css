@@ -302,6 +302,10 @@ container h3{
   margin: 2% auto;
 }
 
+.description2 h3 {
+  width: 80%
+}
+
 .email {
   margin-top: 1%
 }
