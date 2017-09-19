@@ -145,6 +145,9 @@ footer {
   font-size: 40px
 }
 
+.type {
+  font-size: 30px
+}
 .contain2, header {
   position: relative;
 }
