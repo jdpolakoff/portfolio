@@ -161,15 +161,18 @@ footer {
 
 .abt {
   margin: 0 auto;
-  font-size: 40px
+  font-size: 40px;
+  text-decoration: none;
 }
 
 .abt2 {
-  font-size: 40px
+  font-size: 40px;
+  margin-top: 2%;
 }
 
 .abt3 {
   font-size: 40px;
+  text-decoration: none
 }
 
 .type {
