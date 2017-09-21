@@ -192,6 +192,10 @@ header {
   top: 0
 }*/
 
+.proj {
+  font-size: 24px
+}
+
 .main img, .main2 img, .main3 img {
   border-radius: 10px;
   height: 230px;
@@ -355,6 +359,10 @@ container h3{
   margin-top: 1%
 }
 
+.email a {
+  text-decoration: none
+}
+
 @media only screen and (max-width: 950px) {
 .aboutme, .aboutme2 {
   height: 100vh;
@@ -384,7 +392,7 @@ container h3{
   }
 
   .container {
-    width: 80%
+    width: 99%
   }
 
   span p {
@@ -392,13 +400,13 @@ container h3{
   }
 
   .description, .description2 {
-    width: 95%;
+    width: 98%;
   }
   .description p, .description2 p {
     width: 95%;
   }
   .description2 img, .description img {
-    max-width: 90%
+    height: 100px
   }
   .aboutme, .aboutme2 {
     height: 100vh;
