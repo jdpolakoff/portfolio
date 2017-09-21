@@ -363,6 +363,13 @@ container h3{
   text-decoration: none
 }
 
+@media only screen and (max-width: 780px) {
+  .logos, .logos2 {
+    float: left;
+    margin-top: 2%;
+  }
+}
+
 @media only screen and (max-width: 950px) {
 .aboutme, .aboutme2 {
   height: 100vh;
