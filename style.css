@@ -343,6 +343,10 @@ container h3{
   align-self: center;*/
 }
 
+.description a, .description2 a {
+  text-decoration: none
+}
+
 .description2 img {
   margin-bottom: 2%
 }
