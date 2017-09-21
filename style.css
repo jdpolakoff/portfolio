@@ -384,7 +384,7 @@ container h3{
  .aboutme2 {
    height: 100vh;
    width: 95vw;
- }
+  }
  }
 
 @media only screen and (max-width: 650px) {
