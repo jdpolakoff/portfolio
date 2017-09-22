@@ -443,7 +443,7 @@ container h3{
   .aboutme2 {
     padding-top: 15%
   }
-  .container {
+  .container, .container2, .container3 {
     width: 99%
   }
 
