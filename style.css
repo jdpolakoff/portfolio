@@ -212,7 +212,7 @@ img:hover {
   border: 5px dotted #0f67ff;
 }
 
-.container {
+.container, .container2, .container3 {
   width: 70%;
   margin: 0 auto;
   /*margin-bottom: 50%;
@@ -224,7 +224,34 @@ img:hover {
   margin-bottom: 2%;
   margin-top: 1%;
   background-color: #fcfdff;
+  display: none
 
+}
+
+.webapps, .gis, .journalism {
+  cursor: pointer
+}
+
+.webapps:hover, .gis:hover, .journalism:hover {
+  color: blue
+}
+
+.options {
+width: 70%;
+margin: 0 auto;
+/*margin-bottom: 50%;
+margin-left: 5%;*/
+box-shadow: 5px 5px 5px #D6DBDF;
+border-radius: 10px;
+border: 2px solid #D6DBDF;
+margin-bottom: 2%;
+margin-top: 1%;
+background-color: #fcfdff;
+text-align: center
+}
+
+.options a {
+  text-decoration: none
 }
 
 h3, h2 {

@@ -29,3 +29,21 @@ $(document).ready(function() {
 //      term : $words
 //    })
 })
+
+$('.webapps').click(function () {
+  $('.container2').hide()
+  $('.container3').hide()
+  $('.container').show()
+})
+
+$('.gis').click(function () {
+  $('.container').hide()
+  $('.container3').hide()
+  $('.container2').show()
+})
+
+$('.journalism').click(function () {
+  $('.container').hide()
+  $('.container2').hide()
+  $('.container3').show()
+})
