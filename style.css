@@ -412,12 +412,19 @@ container h3{
 .logos3 {
   display: none
 }
+.logoscontain {
+  margin-top: 15%;
+}
 }
 
 @media only screen and (max-width: 1050px) {
  .aboutme2 {
-   height: 100vh;
+   height: 100%;
    width: 95vw;
+   margin-top: 15%;
+  }
+  .logoscontain {
+    margin-top: 15%;
   }
  }
 
@@ -433,7 +440,7 @@ container h3{
   .logoscontain {
     height: 100%;
     width: 100%;
-    padding-top: 15%;
+    margin-top: 15%;
   }
 
   .logos, .logos2 {
@@ -441,7 +448,7 @@ container h3{
     margin-top: 2%;
   }
   .aboutme2 {
-    margin-top: 15%
+    margin-top: 30%
   }
   .container, .container2, .container3 {
     width: 99%
@@ -467,5 +474,12 @@ container h3{
   }
   .aboutme a {
     margin: 0 auto
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .aboutme2 {
+    margin-top: 70%;
+    height: 100%
   }
 }
