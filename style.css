@@ -413,7 +413,7 @@ container h3{
   display: none
 }
 .logoscontain {
-  margin-top: 15%;
+  margin-top: 10%;
 }
 }
 
@@ -422,9 +422,6 @@ container h3{
    height: 100vh;
    width: 95vw;
    margin-top: 15%;
-  }
-  .logoscontain {
-    margin-top: 15%;
   }
  }
 
