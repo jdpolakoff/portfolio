@@ -9,8 +9,8 @@ $(document).ready(function() {
      breaklines: true,
      cursor: true,
    })
-   $('.logos').delay(1500).fadeIn(1000)
-    $('.options').delay(1600).fadeIn(1000)
+   $('.logos').delay(1600).fadeIn(1000)
+    $('.options').delay(1700).fadeIn(1000)
     $('.aboutme2').fadeIn(1000)
     $('.innerabout').delay(300).fadeIn(400)
     $('.aboutme').fadeIn(300)
