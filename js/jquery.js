@@ -2,12 +2,15 @@
 $(document).ready(function() {
     $('.stuff h1').typeIt({
      strings: ["Jonathan Polakoff", "Web developer & journalist"],
-     speed: 20,
+     speed: 10,
      html: true,
      autoStart: true,
      breaklines: true,
      cursor: true,
    })
+    $('.options').delay(2200).fadeIn(1000)
+    $('.aboutme').fadeIn(2000)
+    $('.aboutme2').fadeIn(1000)
     $('.logos').delay(2000).fadeIn(1000)
     $('body').particleground({
        randomStrokeColor: true,
@@ -26,19 +29,19 @@ $(document).ready(function() {
 $('.webapps').click(function () {
   $('.container2').hide()
   $('.container3').hide()
-  $('.container').show()
+  $('.container').fadeIn(300)
 })
 
 $('.gis').click(function () {
   $('.container').hide()
   $('.container3').hide()
-  $('.container2').show()
+  $('.container2').fadeIn(300)
 })
 
 $('.journalism').click(function () {
   $('.container').hide()
   $('.container2').hide()
-  $('.container3').show()
+  $('.container3').fadeIn(300)
 })
 $('.fishwrap').click(function () {
   $('.descriptionmuseo').hide()
