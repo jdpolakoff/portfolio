@@ -236,7 +236,7 @@ img:hover {
 }
 
 .options {
-width: 70%;
+width: 60%;
 margin: 0 auto;
 /*margin-bottom: 50%;
 margin-left: 5%;*/
@@ -255,7 +255,7 @@ text-align: center
 
 .options h2 {
   font-size: 36px;
-  width: 80%
+  width: 85%
 }
 
 .options a {
@@ -453,6 +453,7 @@ container h3{
 .aboutme, .aboutme2 {
   height: 100vh;
   width: 95vw;
+  margin-top: 15%;
 }
 .logos3 {
   display: none
@@ -465,11 +466,10 @@ container h3{
 }
 }
 
-@media only screen and (max-width: 1050px) {
+@media only screen and (max-width: 1250px) {
  .aboutme2 {
    height: 100vh;
    width: 95vw;
-   margin-top: 15%;
   }
   .description2 img, .description img, .descriptionfish img, .descriptionmuseo img, .descriptionprompt img, .descriptionhangman img {
     height: 200px
