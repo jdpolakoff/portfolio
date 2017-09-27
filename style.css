@@ -33,7 +33,7 @@ h1, h2 {
 }
 
 .stuff h1 {
-font-size: 44px
+font-size: 34px
 }
 
 .stuff2 {
@@ -204,7 +204,7 @@ footer {
 }
 
 .type {
-  font-size: 36px
+  font-size: 32px
 }
 .contain2, header {
   position: relative;
@@ -221,7 +221,7 @@ header {
 }*/
 
 .proj {
-  font-size: 34px
+  font-size: 32px
 }
 
 .main img, .main2 img, .main3 img {
@@ -276,11 +276,11 @@ display: none
 }
 
 .options h1 {
-  font-size: 40px;
+  font-size: 34px;
 }
 
 .options h2 {
-  font-size: 36px;
+  font-size: 32px;
   width: 85%
 }
 
@@ -337,7 +337,7 @@ container h3{
 
 
 .logos img, .logos2 img, .logos3 img, .logos5 img {
-  height: 70px;
+  height: 60px;
   border: none;
   box-shadow: 5px 5px 5px #D6DBDF;
   border-radius: 5px;
@@ -410,7 +410,7 @@ container h3{
 }
 
 .apps {
-  font-size: 40px;
+  font-size: 32px;
 }
 
 .description2 {
