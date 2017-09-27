@@ -21,13 +21,6 @@ $(document).ready(function() {
        particleRadius: 5,
        proximity: 100
 })
-// var $words = {
-//     word: "apply",
-//     definition: "The Write Less, Do More, JavaScript Library."
-//   }
-//  $('span p').definitions( {
-//      term : $words
-//    })
 })
 
 $('.webapps').click(function () {
@@ -46,4 +39,28 @@ $('.journalism').click(function () {
   $('.container').hide()
   $('.container2').hide()
   $('.container3').show()
+})
+$('.fishwrap').click(function () {
+  $('.descriptionmuseo').hide()
+  $('.descriptionprompt').hide()
+  $('.descriptionhangman').hide()
+  $('.descriptionfish').show()
+})
+$('.museogram').click(function () {
+  $('.descriptionfish').hide()
+  $('.descriptionprompt').hide()
+  $('.descriptionhangman').hide()
+  $('.descriptionmuseo').show()
+})
+$('.promptly').click(function () {
+  $('.descriptionfish').hide()
+  $('.descriptionmuseo').hide()
+  $('.descriptionhangman').hide()
+  $('.descriptionprompt').show()
+})
+$('.hangman').click(function () {
+  $('.descriptionfish').hide()
+  $('.descriptionmuseo').hide()
+  $('.descriptionprompt').hide()
+  $('.descriptionhangman').show()
 })

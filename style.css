@@ -33,7 +33,7 @@ h1, h2 {
 }
 
 .stuff h1 {
-  /*margin-bottom: -1%;*/
+font-size: 44px
 }
 
 .stuff2 {
@@ -179,7 +179,7 @@ footer {
 }
 
 .type {
-  font-size: 30px
+  font-size: 36px
 }
 .contain2, header {
   position: relative;
@@ -196,7 +196,7 @@ header {
 }*/
 
 .proj {
-  font-size: 24px
+  font-size: 34px
 }
 
 .main img, .main2 img, .main3 img {
@@ -225,14 +225,13 @@ img:hover {
   margin-top: 1%;
   background-color: #fcfdff;
   display: none
-
 }
 
-.webapps, .gis, .journalism {
+.webapps, .gis, .journalism, .fishwrap, .museogram, .promptly, .hangman {
   cursor: pointer
 }
 
-.webapps:hover, .gis:hover, .journalism:hover {
+.webapps:hover, .gis:hover, .journalism:hover, .fishwrap:hover, .museogram:hover, .promptly:hover, .hangman:hover {
   color: blue
 }
 
@@ -248,6 +247,14 @@ margin-bottom: 2%;
 margin-top: 1%;
 background-color: #fcfdff;
 text-align: center
+}
+
+.options h1 {
+  font-size: 40px;
+}
+
+.options h2 {
+  font-size: 36px;
 }
 
 .options a {
@@ -278,8 +285,8 @@ container h3{
 }
 
 .logos {
-  float: right;
-  margin-top: -5%;
+  float: left;
+  margin-top: .1%;
   margin-right: 1%;
   margin-bottom: .4%;
   display: none;
@@ -308,7 +315,7 @@ container h3{
 }
 
 .logos img, .logos2 img, .logos3 img, .logos5 img {
-  height: 60px;
+  height: 80px;
   border: none;
   box-shadow: 5px 5px 5px #D6DBDF;
   border-radius: 5px;
@@ -356,6 +363,39 @@ container h3{
   align-self: center;*/
 }
 
+.description2 img, .description img, .descriptionfish img, .descriptionmuseo img, .descriptionprompt img, .descriptionhangman img {
+  height: 350px
+}
+
+.descriptionmuseo, .descriptionprompt, .descriptionhangman {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  display: inline-block;
+  box-shadow: 5px 5px 5px #D6DBDF;
+  border: 2px solid #D6DBDF;
+  border-radius: 10px;
+  margin-bottom: 2%;
+  background-color: #f9fbff;
+  display: none
+}
+
+.descriptionfish {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  display: inline-block;
+  box-shadow: 5px 5px 5px #D6DBDF;
+  border: 2px solid #D6DBDF;
+  border-radius: 10px;
+  margin-bottom: 2%;
+  background-color: #f9fbff;
+}
+
+.apps {
+  font-size: 40px;
+}
+
 .description2 {
   width: 90%;
   text-align: center;
@@ -370,7 +410,7 @@ container h3{
   align-self: center;*/
 }
 
-.description a, .description2 a {
+.description a, .description2 a, .descriptionfish a, .descriptionmuseo a, .descriptionprompt a, .descriptionhangman a {
   text-decoration: none
 }
 
@@ -378,9 +418,9 @@ container h3{
   margin-bottom: 2%
 }
 
-.description p, .description2 p, .description3 p {
+.description p, .description2 p, .description3 p, .descriptionfish p, .descriptionmuseo p, .descriptionprompt p, .descriptionhangman p {
   /*margin-left: 25%;*/
-  font-size: 20px;
+  font-size: 30px;
   width: 80%;
   margin: 2% auto;
 }
@@ -390,6 +430,7 @@ container h3{
 }
 
 .email {
+  font-size: 30px;
   margin-top: 1%
 }
 
@@ -401,6 +442,9 @@ container h3{
   .logos, .logos2 {
     float: left;
     margin-top: 2%;
+  }
+  .description2 img, .description img, .descriptionfish img, .descriptionmuseo img, .descriptionprompt img, .descriptionhangman img {
+    height: 120px
   }
 }
 
@@ -415,6 +459,9 @@ container h3{
 .logoscontain {
   margin-top: 10%;
 }
+.description2 img, .description img, .descriptionfish img, .descriptionmuseo img, .descriptionprompt img, .descriptionhangman img {
+  height: 150px
+}
 }
 
 @media only screen and (max-width: 1050px) {
@@ -422,6 +469,9 @@ container h3{
    height: 100vh;
    width: 95vw;
    margin-top: 15%;
+  }
+  .description2 img, .description img, .descriptionfish img, .descriptionmuseo img, .descriptionprompt img, .descriptionhangman img {
+    height: 200px
   }
  }
 
@@ -455,13 +505,13 @@ container h3{
     width: 80%;
   }
 
-  .description, .description2 {
+  .description, .description2, .descriptionfish, .descriptionmuseo, .descriptionprompt, .descriptionhangman {
     width: 98%;
   }
-  .description p, .description2 p {
+  .description p, .description2 p, .descriptionfish p, .descriptionmuseo p, .descriptionprompt p, .descriptionhangman p {
     width: 95%;
   }
-  .description2 img, .description img {
+  .description2 img, .description img, .descriptionfish img, .descriptionmuseo img, .descriptionprompt img, .descriptionhangman img {
     height: 100px
   }
   .aboutme, .aboutme2 {
