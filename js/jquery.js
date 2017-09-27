@@ -3,7 +3,7 @@ var initialLoad = true
 $(document).ready(function() {
     $('.stuff h1').typeIt({
      strings: ["Jonathan Polakoff", "Web developer & journalist"],
-     speed: 1,
+     speed: 10,
      html: true,
      autoStart: true,
      breaklines: true,
