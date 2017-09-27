@@ -1,17 +1,19 @@
+var initialLoad = true
 
 $(document).ready(function() {
     $('.stuff h1').typeIt({
      strings: ["Jonathan Polakoff", "Web developer & journalist"],
-     speed: 10,
+     speed: 1,
      html: true,
      autoStart: true,
      breaklines: true,
      cursor: true,
    })
-    $('.options').delay(2200).fadeIn(1000)
-    $('.aboutme').fadeIn(2000)
+   $('.logos').delay(1500).fadeIn(1000)
+    $('.options').delay(1600).fadeIn(1000)
     $('.aboutme2').fadeIn(1000)
-    $('.logos').delay(2000).fadeIn(1000)
+    $('.innerabout').delay(300).fadeIn(400)
+    $('.aboutme').fadeIn(300)
     $('body').particleground({
        randomStrokeColor: true,
        strokeColorMin: 0,
