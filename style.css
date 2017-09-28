@@ -384,7 +384,7 @@ container h3{
   height: 350px
 }
 
-.descriptionmuseo, .descriptionprompt, .descriptionhangman {
+.descriptionmuseo, .descriptionprompt, .descriptionhangman, .descriptionfish {
   width: 90%;
   text-align: center;
   margin: 0 auto;
@@ -397,7 +397,7 @@ container h3{
   display: none
 }
 
-.descriptionfish {
+/*.descriptionfish {
   width: 90%;
   text-align: center;
   margin: 0 auto;
@@ -407,7 +407,7 @@ container h3{
   border-radius: 10px;
   margin-bottom: 2%;
   background-color: #f9fbff;
-}
+}*/
 
 .apps {
   font-size: 32px;
