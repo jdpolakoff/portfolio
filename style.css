@@ -455,7 +455,7 @@ container h3{
   text-decoration: none
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 830px) {
   .logos, .logos2 {
     float: left;
     margin-top: 2%;
@@ -465,7 +465,6 @@ container h3{
   }
   .aboutme, .aboutme2 {
     height: 90%;
-    width: 90%;
   }
 }
 
