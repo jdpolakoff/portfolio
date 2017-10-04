@@ -463,10 +463,14 @@ container h3{
   .description2 img, .description img, .descriptionfish img, .descriptionmuseo img, .descriptionprompt img, .descriptionhangman img {
     height: 120px
   }
+  .aboutme, .aboutme2 {
+    height: 90%;
+    width: 90%;
+  }
 }
 
 @media only screen and (max-width: 950px) {
-.aboutme, .aboutme2 {
+  .aboutme, .aboutme2 {
   height: 90%;
   width: 90%;
   margin-top: 15%;
