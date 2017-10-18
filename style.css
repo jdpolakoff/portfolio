@@ -136,18 +136,18 @@ footer {
   right: 0;
   position: absolute;
   margin: auto;
-  background-color: white;
+  /*background-color: white;*/
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 2%;
+  /*padding: 2%;*/
   font-size: 22px;
-  border-radius: 40px;
-  box-shadow: 5px 5px 5px #D6DBDF;
-  padding: 2%;
-  border-radius: 10px;
-  border: 2px solid #D6DBDF;
-  background-color: #fcfdff;
+  /*border-radius: 40px;*/
+  /*box-shadow: 5px 5px 5px #D6DBDF;*/
+  /*padding: 2%;*/
+  /*border-radius: 10px;*/
+  /*border: 2px solid #D6DBDF;*/
+  /*background-color: #fcfdff;*/
   display: none
 }
 
