@@ -1,3 +1,5 @@
+window.location = "http://jonathanpolakoff.me"
+
 var initialLoad = true
 
 $(document).ready(function() {
